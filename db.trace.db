@@ -1,0 +1,73 @@
+2023-11-15 16:40:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ROLES(ID,NAME) VALUES
+(1,'ROLE_ADMIN),
+(2,'ROLE_USER[*])"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+insert into roles(id,name) values
+(1,'ROLE_ADMIN),
+(2,'ROLE_USER) [42001-200]
+2023-11-15 16:47:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user _role(user _id, role_id) values
+(1,1),
+(1,2) [42102-200]
+2023-11-15 16:48:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USERS (ID, EMAIL, PASSWORD, FIRST_NAME, LAST_NAME) VALUES
+(1, 'admin@gmail.com','$2a$10$moTjfAVBJzNS32q7NPPVh.iAGDbZSkjZJBkdxT5ZLKQ3R1Vh/y9Fi','Admin','gupta'[*]"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO users (id, email, password, first_Name, last_Name) VALUES
+(1, 'admin@gmail.com','$2a$10$moTjfAVBJzNS32q7NPPVh.iAGDbZSkjZJBkdxT5ZLKQ3R1Vh/y9Fi','Admin','gupta' [42001-200]
+2023-11-15 16:50:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USERS (ID, EMAIL, PASSWORD, FIRST_NAME, LAST_NAME) VALUES
+(1, 'admin@gmail.com','$2a$10$moTjfAVBJzNS32q7NPPVh.iAGDbZSkjZJBkdxT5ZLKQ3R1Vh/y9Fi','Admin','gupta'[*]"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO users (id, email, password, first_Name, last_Name) VALUES
+(1, 'admin@gmail.com','$2a$10$moTjfAVBJzNS32q7NPPVh.iAGDbZSkjZJBkdxT5ZLKQ3R1Vh/y9Fi','Admin','gupta' [42001-200]
+2023-11-15 16:51:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user _role(user_id, role id) values
+(1,1),
+(1,2) [42102-200]
+2023-11-15 16:52:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USERS _ROLE[*](USER_ID, ROLE ID) VALUES
+(1,1),
+(1,2)"; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, TABLE, VALUES"; SQL statement:
+insert into users _role(user_id, role id) values
+(1,1),
+(1,2) [42001-200]
+2023-11-15 16:52:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user _role(user_id, role id) values
+(1,1),
+(1,2) [42102-200]
+2023-11-15 16:54:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user _role(user_id, role id) values
+(1,1),
+(1,2) [42102-200]
+2023-11-15 16:54:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user _role(user_id, role id) values
+(1,1),
+(1,2) [42102-200]
+2023-11-15 16:54:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ROLE_USER" not found; SQL statement:
+insert into role_User(user_id, role id) values
+(1,1),
+(1,2) [42102-200]
+2023-11-15 16:54:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USERS _ROLE[*](USER_ID, ROLE_ID) VALUES
+(1,1),
+(1,2)"; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, TABLE, VALUES"; SQL statement:
+insert into users _role(user_id, role_id) values
+(1,1),
+(1,2) [42001-200]
+2023-11-15 16:55:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USERS _ROLE[*](USER_ID, ROLE_ID) VALUES
+(1,1),
+(1,2)"; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, TABLE, VALUES"; SQL statement:
+insert into users _role(user_id, role_id) values
+(1,1),
+(1,2) [42001-200]
+2023-11-15 16:55:28 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user _role(user_id, role_id) values
+(1,1),
+(1,2) [42102-200]
